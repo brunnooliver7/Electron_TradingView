@@ -1,14 +1,14 @@
-import React from 'react';
-import { render } from 'react-dom'
+import React from "react";
+import { Chart1 } from "./components/Chart1";
+import { Chart2 } from "./components/Chart2";
 
 const App = () => {
   return (
     <>
-      <h1>teste A</h1>
+      <Chart1 />
+      <Chart2 />
     </>
   );
 };
-
-render(<App />, document.getElementById("root"));
 
 export default App;
